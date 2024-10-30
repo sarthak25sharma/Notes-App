@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "341233678089",
+    "project_id": "notes-flutter-1725-sarth",
+    "storage_bucket": "notes-flutter-1725-sarth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341233678089:android:e446e3c148e604b34d85d8",
+        "android_client_info": {
+          "package_name": "com.hello.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD51FSBb-OL15KsxTzjRbWN6ktfXxa8PEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

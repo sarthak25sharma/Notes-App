@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace = "com.hello.notes"
+    compileSdk = 34  // Specify the compile SDK version (e.g., 33)
+
+    ndkVersion = "21.1.6352462"  // Specify the NDK version if needed, otherwise remove this line.
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.hello.notes"
+        minSdk = 23  // Minimum SDK version
+        targetSdk = 34  // Target SDK version
+        versionCode = 1  // Version code
+        versionName = "1.0"  // Version name
+    }
+
+    buildTypes {
+        release {
+            signingConfig = signingConfigs.debug  // Use debug keys for release (update this later for production)
+        }
+    }
+}
+
+flutter {
+    source = "../.."  // Points to the Flutter project directory, leave as is
+}
