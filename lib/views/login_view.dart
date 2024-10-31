@@ -3,8 +3,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:notes/constants/routes.dart';
 import 'package:notes/firebase_options.dart';
-
-
 import 'package:notes/utilities/show_error_dialog.dart';
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
